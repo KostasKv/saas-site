@@ -6,7 +6,8 @@ function App() {
       <div className="w-full h-10 bg-black flex items-center justify-center">
         <p className="text-white leading-tight text-xs sm:text-sm">
           <strong class="mr-1 font-medium">New!</strong> We launched our
-          affiliate program! <a class="underline ml-1">See more</a>
+          affiliate program!{" "}
+          <a class="underline ml-1 cursor-pointer">See more</a>
         </p>
       </div>
       <div class="flex justify-between sm:justify-around mt-4 items-center px-5">
