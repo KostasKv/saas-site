@@ -1,10 +1,12 @@
 import HamburgerMenu from "./components/HamburgerMenu.jsx";
+import HandBackgroundImage from "./components/HandBackgroundImage.jsx";
 import "./App.css";
 
 function App() {
   return (
-    <div class="font-primary">
-      <div className="w-full h-10 bg-black flex items-center justify-center">
+    <div className="font-primary">
+      <HandBackgroundImage />
+      <div className="w-full h-10 bg-black flex items-center justify-center relative">
         <p className="text-white leading-tight text-xs sm:text-sm">
           <strong class="mr-1 font-medium">New!</strong> We launched our
           affiliate program!{" "}
@@ -27,9 +29,9 @@ function App() {
           Buy now
         </button>
       </div>
-      <div class="flex flex-col items-center mx-auto mt-24 px-5 sm:max-w-[50rem]">
+      <div class="flex flex-col items-center mx-auto mt-24 px-5 sm:max-w-[50rem] relative">
         <h1 className="text-center text-black text-[clamp(2rem,6.4vw+1rem,6rem)] font-semibold font-heading leading-[1.1]">
-          Launch a saas product in style
+          Launch a SaaS product in style
         </h1>
         <p className="text-center text-gray-700 text-lg sm:text-2xl font-normal leading-9 mt-[1.5rem]">
           Create a stylish website easy and for everyone – SaaS Platforms,
