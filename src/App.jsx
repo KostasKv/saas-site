@@ -1,3 +1,4 @@
+import HamburgerMenu from "./components/HamburgerMenu.jsx";
 import "./App.css";
 
 function App() {
@@ -13,15 +14,10 @@ function App() {
       <div class="flex justify-between sm:justify-around mt-[1.81rem] items-center px-5">
         <a
           href=""
-          className="text-black font-semibold leading-7 font-heading text-[clamp(1.5rem,2.13vw+1rem,2rem)]"
-        >
+          className="text-black font-semibold leading-7 font-heading text-[clamp(1.5rem,2.13vw+1rem,2rem)]">
           launch
         </a>
-        <a href="" className="sm:hidden">
-          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
-            <use href="src/assets/sicon_menu.svg#menu"></use>
-          </svg>
-        </a>
+        <HamburgerMenu />
         <div class="hidden gap-10 sm:flex">
           <a href="">What is Launch?</a>
           <a href="">Pricing</a>
