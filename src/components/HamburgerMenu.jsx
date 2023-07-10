@@ -1,4 +1,5 @@
 import { useState } from "react";
+import HamburgerMenuIcon from "../assets/icon_menu.svg";
 
 export default function HamburgerMenu() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,10 +14,36 @@ export default function HamburgerMenu() {
         <svg
           width="24"
           height="24"
-          xmlns="http://www.w3.org/2000/svg"
-          aria-hidden="true"
-          focusable="false">
-          <use href="src/assets/sicon_menu.svg#menu"></use>
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g id="vuesax/linear/menu">
+            <g id="vuesax/linear/menu_2">
+              <g id="menu" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                  id="Vector"
+                  d="M3 7H21"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  id="Vector_2"
+                  d="M3 12H21"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  id="Vector_3"
+                  d="M3 17H21"
+                  stroke="black"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </g>
+            </g>
+          </g>
         </svg>
       </button>
       <ul
