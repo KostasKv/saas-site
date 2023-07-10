@@ -10,7 +10,7 @@ function App() {
           <a class="underline ml-1 cursor-pointer">See more</a>
         </p>
       </div>
-      <div class="flex justify-between sm:justify-around mt-4 items-center px-5">
+      <div class="flex justify-between sm:justify-around mt-[1.81rem] items-center px-5">
         <a
           href=""
           className="text-black font-semibold leading-7 font-heading text-[clamp(1.5rem,2.13vw+1rem,2rem)]"
@@ -18,7 +18,9 @@ function App() {
           launch
         </a>
         <a href="" className="sm:hidden">
-          <i className="fa fa-bars"></i>
+          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+            <use href="src/assets/sicon_menu.svg#menu"></use>
+          </svg>
         </a>
         <div class="hidden gap-10 sm:flex">
           <a href="">What is Launch?</a>
