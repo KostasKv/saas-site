@@ -23,7 +23,7 @@ function App() {
         <div class="hidden gap-10 sm:flex">
           <a href="">What is Launch?</a>
           <a href="">Pricing</a>
-          <a href="faq">FAQ</a>
+          <a href="#faq">FAQ</a>
         </div>
         <button className="hidden bg-sky-100 rounded-lg font-medium px-5 py-3  hover:bg-sky-300 sm:inline-block">
           Buy now
